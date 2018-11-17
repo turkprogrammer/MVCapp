@@ -7,7 +7,11 @@
  */
 
 class View {
-    public function render($name) {
+    public function render($name, $data=false) {
+                
+        require 'application/views/template/header.php';
         require 'application/views/'.$name.'.php';
+        require 'application/views/template/footer.php';
     }
+   
 }

@@ -10,4 +10,13 @@ class Controller {
     function __construct() {
      $this->view = new View;    
     }
+    public function loadModel($name) {
+        $path = 'application/models/'.$name.'php';
+        $modelname = $name;
+        if (file_exists($path)){
+            require $path;
+             $this->model =new $modelname;
+        }
+       
+    }
 }

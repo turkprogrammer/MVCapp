@@ -4,9 +4,8 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/H:/OSPanel/domains/ycmf/application/controllers/Main.php</file>
-            <file>file:/H:/OSPanel/domains/ycmf/index.php</file>
-            <file>file:/H:/OSPanel/domains/ycmf/application/controllers/Test.php</file>
-            <file>file:/H:/OSPanel/domains/ycmf/application/libs/bootstrap.php</file>
+            <file>file:/H:/OSPanel/domains/ycmf/application/libs/View.php</file>
+            <file>file:/H:/OSPanel/domains/ycmf/application/views/main/index.php</file>
         </group>
     </open-files>
 </project-private>

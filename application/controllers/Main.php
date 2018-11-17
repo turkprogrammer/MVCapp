@@ -13,7 +13,11 @@ class Main extends Controller {
         }
 
     public function index() {
-        $this->view->render('main/index');
+       
+        $data['title'] = "Simple MVC pattern framework";
+        $text = file_get_contents('data/content.md');
+        $data['content'] = str_replace("\n", "<br>", $text);
+        $this->view->render('main/index', $data);
     }
     
     public function about() {

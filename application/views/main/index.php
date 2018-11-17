@@ -1,9 +1,23 @@
-<?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-echo __FILE__;
+<div class="container">
+    <div class="row">
+        <div class="col-12"> 
+            
+              
+                    
+                    <?= $data['content'] ?>
+                    
+               
+           
+       <!--<div class="col-4">  
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is another card with title and supporting text below.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div> -->
+    </div>
+</div>
+    </div>
